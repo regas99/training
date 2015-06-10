@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Training">
+    <meta name="author" content="Tom Sager">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Grid Template for Bootstrap</title>
+    <title>Tom Sager Training</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    <link src="dist/ekko-lightbox.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="grid.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -38,24 +40,57 @@
 
 
       <div class="row">
-        <div class="col-md-3">Team Treehouse
+        <div class="col-md-3">
+          <h2>Team Treehouse</h2>
           <p>Our unique online teaching style makes learning easy for everyone. Whether you are trying to land a new job, brush up on your skills, or learn how to build your ideas, Treehouse has the right content for you.</p>
-          <img src="img/teamtreehouse.jpg" alt="team treehouse img">
+          <ul>
+            <li>Ruby / Rails</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript / jQuery</li>
+            <li>Development Tools</li>
+            <li>PHP</li>
+          </ul>
+          <a href="img/teamtreehouse.jpg" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">Show Work
+<!--             <img src="img/teamtreehouse.jpg" class="img-responsive"></img>
+ -->          </a>
         </div>
-        <div class="col-md-3">edx
-          <img src="img/edx1.jpg" alt="edx img">
+        <div class="col-md-3">
+        <h2>edx</h2>
+        <p>Take great online courses from the world's best universities</p>
+        <p>University of California Berkeley</p>
+        <ul>
+        <li>CS169.1 Software Engineering as a Service</li>
+        <li>CS169.2 Software Engineering as a Service</li>
+        </ul>
+          <a href="img/edx1.jpg" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">Show Work
+
+<!--             <img src="img/edx1.jpg" class="img-responsive"></img>
+ -->          </a>
         </div>
-        <div class="col-md-3">Coursera
-          <img src="img/coursera1.jpg" alt="coursera img">
+        <div class="col-md-3">
+        <h2>Coursera</h2>
+        <p>Coursera provides universal access to the world’s best education, partnering with top universities and organizations to offer courses for anyone to take, for free.</p>
+
+          <a href="img/coursera1.jpg" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">Show Work
+<!--             <img src="img/coursera1.jpg" class="img-responsive"></img>
+ -->          </a>
         </div>
-        <div class="col-md-3">Code Academy
-          <img src="img/codeacademy.jpg" alt="code academy img">
+        <div class="col-md-3">
+        <h2>Code Academy</h2>
+        <p>Codecademy is an education company. But not one in the way you might think. We're committed to building the best learning experience inside and out, making Codecademy the best place for our team to learn, teach, and create the online learning experience of the future.</p>
+          <a href="img/codeacademy.jpg" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">Show Work
+<!--             <img src="img/codeacademy.jpg" class="img-responsive"></img>
+ -->          </a>
         </div>
 
       </div>
 
 
     </div> <!-- /container -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="dist/ekko-lightbox.js"></script>
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
