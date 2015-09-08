@@ -1,0 +1,4 @@
+/*make navbar 100% width freegardless of media queries */
+.navbar-wrapper > .container {
+	width: 100%;
+}
